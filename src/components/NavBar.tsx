@@ -6,7 +6,8 @@ import {
   MDBNavItem,
   MDBNavLink,
   MDBNavbarToggler,
-  MDBCollapse
+  MDBCollapse,
+  MDBBtn
 } from "mdbreact";
 
 class NavBar extends Component {
@@ -36,8 +37,10 @@ class NavBar extends Component {
             <MDBNavItem>
               <MDBNavLink to="/contact">Contact</MDBNavLink>
             </MDBNavItem>
+
           </MDBNavbarNav>
         </MDBCollapse>
+        <MDBBtn href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SZD9H66TJ8XBW&source=url" color="primary">Donate</MDBBtn>
       </MDBNavbar>
     );
   }

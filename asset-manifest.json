@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.34de6062.chunk.css",
-    "main.js": "/static/js/main.6b70b18a.chunk.js",
-    "main.js.map": "/static/js/main.6b70b18a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6b629bf8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6b629bf8.js.map",
-    "static/css/2.5a93e938.chunk.css": "/static/css/2.5a93e938.chunk.css",
-    "static/js/2.3ab8655a.chunk.js": "/static/js/2.3ab8655a.chunk.js",
-    "static/js/2.3ab8655a.chunk.js.map": "/static/js/2.3ab8655a.chunk.js.map",
+    "main.js": "/static/js/main.d0f372ce.chunk.js",
+    "main.js.map": "/static/js/main.d0f372ce.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b2fe0743.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b2fe0743.js.map",
+    "static/css/2.9c15de6c.chunk.css": "/static/css/2.9c15de6c.chunk.css",
+    "static/js/2.e4dae8cd.chunk.js": "/static/js/2.e4dae8cd.chunk.js",
+    "static/js/2.e4dae8cd.chunk.js.map": "/static/js/2.e4dae8cd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.71a922ad486fbe26ed041057bde28edd.js": "/precache-manifest.71a922ad486fbe26ed041057bde28edd.js",
+    "precache-manifest.5dde1027638009d0c21994d786e17e8f.js": "/precache-manifest.5dde1027638009d0c21994d786e17e8f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.5a93e938.chunk.css.map": "/static/css/2.5a93e938.chunk.css.map",
+    "static/css/2.9c15de6c.chunk.css.map": "/static/css/2.9c15de6c.chunk.css.map",
     "static/css/main.34de6062.chunk.css.map": "/static/css/main.34de6062.chunk.css.map",
+    "static/js/2.e4dae8cd.chunk.js.LICENSE.txt": "/static/js/2.e4dae8cd.chunk.js.LICENSE.txt",
     "static/media/AdultSpeech.JPG": "/static/media/AdultSpeech.93974381.JPG",
     "static/media/AdultSpeech2.JPG": "/static/media/AdultSpeech2.cbe1bb89.JPG",
     "static/media/Alonso.JPG": "/static/media/Alonso.2b8d1e09.JPG",
@@ -29,16 +30,16 @@
     "static/media/Main.JPG": "/static/media/Main.6bd690c1.JPG",
     "static/media/MainSplash.JPG": "/static/media/MainSplash.fb006796.JPG",
     "static/media/Prayer.JPG": "/static/media/Prayer.f858e740.JPG",
-    "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
     "static/media/ShoesGiveaway.JPG": "/static/media/ShoesGiveaway.04d9d518.JPG",
     "static/media/Testimony.JPG": "/static/media/Testimony.c2d46b6b.JPG",
-    "static/media/all.min.css": "/static/media/fa-solid-900.c2801fb4.svg"
+    "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/static/media/fa-solid-900.ec763292.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b629bf8.js",
-    "static/css/2.5a93e938.chunk.css",
-    "static/js/2.3ab8655a.chunk.js",
+    "static/js/runtime-main.b2fe0743.js",
+    "static/css/2.9c15de6c.chunk.css",
+    "static/js/2.e4dae8cd.chunk.js",
     "static/css/main.34de6062.chunk.css",
-    "static/js/main.6b70b18a.chunk.js"
+    "static/js/main.d0f372ce.chunk.js"
   ]
 }

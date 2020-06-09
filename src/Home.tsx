@@ -34,10 +34,12 @@ const Home = () => (
         </MDBMask>
       </MDBView>
     </MDBRow>
+
     <MDBContainer
       className="d-flex align-items-center py-0 px-0"
       style={{ height: "10vh" }}
     ></MDBContainer>
+
     <MDBContainer className="d-flex align-items-center py-0 px-0">
       <MDBCarousel
         activeItem={1}

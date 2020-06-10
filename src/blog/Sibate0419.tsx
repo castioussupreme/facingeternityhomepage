@@ -1,5 +1,45 @@
 import React from "react";
 import { MDBContainer, MDBMask, MDBView, MDBCol, MDBRow} from "mdbreact";
+import MAINSPLASH_IMG from "../assets/Sibate0419/MainSplash.JPG";
+import MAINSPLASH_SMALL_IMG from "../assets/Sibate0419/MainSplash.JPG-small.jpg";
+import KIDACT_IMG from "../assets/Sibate0419/KidActivities.JPG";
+import KIDACT_SMALL_IMG from "../assets/Sibate0419/KidActivities.JPG-small.jpg";
+import PRAYER_IMG from "../assets/Sibate0419/Prayer.JPG";
+import PRAYER_SMALL_IMG from "../assets/Sibate0419/Prayer.JPG-small.jpg";
+import ADULTSPEECH_IMG from "../assets/Sibate0419/AdultSpeech.JPG";
+import ADULTSPEECH_SMALL_IMG from "../assets/Sibate0419/AdultSpeech.JPG-small.jpg";
+import ADULTSPEECH2_IMG from "../assets/Sibate0419/AdultSpeech2.JPG";
+import ADULTSPEECH2_SMALL_IMG from "../assets/Sibate0419/AdultSpeech2.JPG-small.jpg";
+import FOODPREP_IMG from "../assets/Sibate0419/FoodPrep.JPG";
+import FOODPREP_SMALL_IMG from "../assets/Sibate0419/FoodPrep.JPG-small.jpg";
+import FOODPREP2_IMG from "../assets/Sibate0419/FoodPrep2.JPG";
+import FOODPREP2_SMALL_IMG from "../assets/Sibate0419/FoodPrep2.JPG-small.jpg";
+import FOODSERVICE_IMG from "../assets/Sibate0419/FoodService.JPG";
+import FOODSERVICE_SMALL_IMG from "../assets/Sibate0419/FoodService.JPG-small.jpg";
+import LUNCHROOM_IMG from "../assets/Sibate0419/LunchRoom.JPG";
+import LUNCHROOM_SMALL_IMG from "../assets/Sibate0419/LunchRoom.JPG-small.jpg";
+import ARTICLESGIVEAWAY_IMG from "../assets/Sibate0419/ArticlesGiveaway.JPG";
+import ARTICLESGIVEAWAY_SMALL_IMG from "../assets/Sibate0419/ArticlesGiveaway.JPG-small.jpg";
+import TESTIMONY_IMG from "../assets/Sibate0419/Testimony.JPG";
+import TESTIMONY_SMALL_IMG from "../assets/Sibate0419/Testimony.JPG-small.jpg";
+import GIVEAWAYSTAND_IMG from "../assets/Sibate0419/GiveawayStand.JPG";
+import GIVEAWAYSTAND_SMALL_IMG from "../assets/Sibate0419/GiveawayStand.JPG-small.jpg";
+import SHOES_IMG from "../assets/Sibate0419/ShoesGiveaway.JPG";
+import SHOES_SMALL_IMG from "../assets/Sibate0419/ShoesGiveaway.JPG-small.jpg";
+
+const MAINSPLASH_SRCSET = MAINSPLASH_SMALL_IMG.concat("  640w, ", MAINSPLASH_IMG, " 6000w");
+const KIDACT_SRCSET = KIDACT_SMALL_IMG.concat("  640w, ", KIDACT_IMG, " 6000w");
+const PRAYER_SRCSET = PRAYER_SMALL_IMG.concat("  640w, ", PRAYER_IMG, " 6000w");
+const ADULTSPEECH_SRCSET = ADULTSPEECH_SMALL_IMG.concat("  640w, ", ADULTSPEECH_IMG, " 6000w");
+const ADULTSPEECH2_SRCSET = ADULTSPEECH2_SMALL_IMG.concat("  640w, ", ADULTSPEECH2_IMG, " 6000w");
+const FOODPREP_SRCSET = FOODPREP_SMALL_IMG.concat("  640w, ", FOODPREP_IMG, " 6000w");
+const FOODPREP2_SRCSET = FOODPREP2_SMALL_IMG.concat("  640w, ", FOODPREP2_IMG, " 6000w");
+const FOODSERVICE_SRCSET = FOODSERVICE_SMALL_IMG.concat("  640w, ", FOODSERVICE_IMG, " 6000w");
+const LUNCHROOM_SRCSET = LUNCHROOM_SMALL_IMG.concat("  640w, ", LUNCHROOM_IMG, " 6000w");
+const ARTICLESGIVEAWAY_SRCSET = ARTICLESGIVEAWAY_SMALL_IMG.concat("  640w, ", ARTICLESGIVEAWAY_IMG, " 6000w");
+const TESTIMONY_SRCSET = TESTIMONY_SMALL_IMG.concat("  640w, ", TESTIMONY_IMG, " 6000w");
+const GIVEAWAYSTAND_SRCSET = GIVEAWAYSTAND_SMALL_IMG.concat("  640w, ", GIVEAWAYSTAND_IMG, " 6000w");
+const SHOES_SRCSET = SHOES_SMALL_IMG.concat("  640w, ", SHOES_IMG, " 6000w");
 
 const Sibate0419 = () => (
 <MDBContainer fluid >
@@ -7,7 +47,9 @@ const Sibate0419 = () => (
         <MDBCol>
         <MDBView>
         <img
-        src={require("../assets/Sibate0419/MainSplash.JPG")}
+        src={MAINSPLASH_IMG}
+        srcSet={MAINSPLASH_SRCSET}
+        sizes = "(max-width: 700px) 640px, 100vw"
         className="img-fluid"
         alt=""
         />
@@ -38,7 +80,9 @@ const Sibate0419 = () => (
             <MDBRow center>
                 <MDBCol xl="6" md="6" className="mb-3">
                     <img
-                    src={require("../assets/Sibate0419/KidActivities.JPG")}
+                    src={KIDACT_IMG}
+                    srcSet={KIDACT_SRCSET}
+                    sizes = "(max-width: 700px) 640px, 100vw"
                     className="img-fluid"
                     alt=""
                     />
@@ -55,21 +99,27 @@ const Sibate0419 = () => (
             <MDBRow>
                 <MDBCol xl="4" md="4" className="mb-3">
                     <img
-                    src={require("../assets/Sibate0419/Prayer.JPG")}
+                    src={PRAYER_IMG}
+                    srcSet={PRAYER_SRCSET}
+                    sizes = "(max-width: 700px) 640px, 100vw"
                     className="img-fluid"
                     alt=""
                     />
                 </MDBCol>
                 <MDBCol xl="4" md="4" className="mb-3">
                     <img
-                    src={require("../assets/Sibate0419/AdultSpeech.JPG")}
+                    src={ADULTSPEECH_IMG}
+                    srcSet={ADULTSPEECH_SRCSET}
+                    sizes = "(max-width: 700px) 640px, 100vw"
                     className="img-fluid"
                     alt=""
                     />
                 </MDBCol>
                 <MDBCol xl="4" md="4" className="mb-3">
                     <img
-                    src={require("../assets/Sibate0419/AdultSpeech2.JPG")}
+                    src={ADULTSPEECH2_IMG}
+                    srcSet={ADULTSPEECH2_SRCSET}
+                    sizes = "(max-width: 700px) 640px, 100vw"
                     className="img-fluid"
                     alt=""
                     />
@@ -85,14 +135,18 @@ const Sibate0419 = () => (
             <MDBRow>
                 <MDBCol xl="6" md="6" className="mb-3">
                     <img
-                    src={require("../assets/Sibate0419/FoodPrep.JPG")}
+                    src={FOODPREP_IMG}
+                    srcSet={FOODPREP_SRCSET}
+                    sizes = "(max-width: 700px) 640px, 100vw"
                     className="img-fluid"
                     alt=""
                     />
                 </MDBCol>
                 <MDBCol xl="6" md="6" className="mb-3">
                     <img
-                    src={require("../assets/Sibate0419/FoodPrep2.JPG")}
+                    src={FOODPREP2_IMG}
+                    srcSet={FOODPREP2_SRCSET}
+                    sizes = "(max-width: 700px) 640px, 100vw"
                     className="img-fluid"
                     alt=""
                     />
@@ -101,14 +155,18 @@ const Sibate0419 = () => (
             <MDBRow>
                 <MDBCol xl="6" md="6" className="mb-3">
                     <img
-                    src={require("../assets/Sibate0419/FoodService.JPG")}
+                    src={FOODSERVICE_IMG}
+                    srcSet={FOODSERVICE_SRCSET}
+                    sizes = "(max-width: 700px) 640px, 100vw"
                     className="img-fluid"
                     alt=""
                     />
                 </MDBCol>
                 <MDBCol xl="6" md="6" className="mb-3">
                     <img
-                    src={require("../assets/Sibate0419/LunchRoom.JPG")}
+                    src={LUNCHROOM_IMG}
+                    srcSet={LUNCHROOM_SRCSET}
+                    sizes = "(max-width: 700px) 640px, 100vw"
                     className="img-fluid"
                     alt=""
                     />
@@ -125,21 +183,27 @@ const Sibate0419 = () => (
             <MDBRow>
                 <MDBCol middle xl="4" md="4" className="mb-3">
                     <img
-                    src={require("../assets/Sibate0419/ArticlesGiveaway.JPG")}
+                    src={ARTICLESGIVEAWAY_IMG}
+                    srcSet={ARTICLESGIVEAWAY_SRCSET}
+                    sizes = "(max-width: 700px) 640px, 100vw"
                     className="img-fluid"
                     alt=""
                     />
                 </MDBCol>
                 <MDBCol xl="4" md="4" className="mb-3">
                     <img
-                    src={require("../assets/Sibate0419/Testimony.JPG")}
+                    src={TESTIMONY_IMG}
+                    srcSet={TESTIMONY_SRCSET}
+                    sizes = "(max-width: 700px) 640px, 100vw"
                     className="img-fluid"
                     alt=""
                     />
                 </MDBCol>
                 <MDBCol middle xl="4" md="4" className="mb-3">
                     <img
-                    src={require("../assets/Sibate0419/GiveawayStand.JPG")}
+                    src={GIVEAWAYSTAND_IMG}
+                    srcSet={GIVEAWAYSTAND_SRCSET}
+                    sizes = "(max-width: 700px) 640px, 100vw"
                     className="img-fluid"
                     alt=""
                     />
@@ -157,7 +221,9 @@ const Sibate0419 = () => (
             <MDBRow center>
                 <MDBCol xl="6" md="6" className="mb-3">
                     <img
-                    src={require("../assets/Sibate0419/ShoesGiveaway.JPG")}
+                    src={SHOES_IMG}
+                    srcSet={SHOES_SRCSET}
+                    sizes = "(max-width: 700px) 640px, 100vw"
                     className="img-fluid"
                     alt=""
                     />
